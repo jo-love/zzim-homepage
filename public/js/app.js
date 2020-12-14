@@ -59098,12 +59098,12 @@ var map = {
 	"./register/Register": [
 		"./resources/js/components/register/Register.vue",
 		9,
-		16
+		3
 	],
 	"./register/Register.vue": [
 		"./resources/js/components/register/Register.vue",
 		9,
-		16
+		3
 	],
 	"./register/components/Login": [
 		"./resources/js/components/register/components/Login.vue",
@@ -59118,27 +59118,24 @@ var map = {
 	"./register/components/Signup": [
 		"./resources/js/components/register/components/Signup.vue",
 		9,
-		3
+		16
 	],
 	"./register/components/Signup.vue": [
 		"./resources/js/components/register/components/Signup.vue",
 		9,
-		3
+		16
 	],
 	"./service/Img/찜.png": [
 		"./resources/js/components/service/Img/찜.png",
-		7,
-		20
+		7
 	],
 	"./service/Img/찜스토어.png": [
 		"./resources/js/components/service/Img/찜스토어.png",
-		7,
-		21
+		7
 	],
 	"./service/Img/츄릅.png": [
 		"./resources/js/components/service/Img/츄릅.png",
-		7,
-		22
+		7
 	],
 	"./service/Platform": [
 		"./resources/js/components/service/Platform.vue",
@@ -59320,6 +59317,39 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DefaultHeader_vue_vue_type_template_id_0c0734ec___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
+
+/***/ }),
+
+/***/ "./resources/js/components/service/Img/찜.png":
+/*!***************************************************!*\
+  !*** ./resources/js/components/service/Img/찜.png ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/찜.png?1a0f17ce8dcb982fc5fcda8ad592a357";
+
+/***/ }),
+
+/***/ "./resources/js/components/service/Img/찜스토어.png":
+/*!******************************************************!*\
+  !*** ./resources/js/components/service/Img/찜스토어.png ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/찜스토어.png?1b1896b518dc75dced8a8f878cc0eaff";
+
+/***/ }),
+
+/***/ "./resources/js/components/service/Img/츄릅.png":
+/*!****************************************************!*\
+  !*** ./resources/js/components/service/Img/츄릅.png ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/츄릅.png?cd4da695b1aeb0adb57c4a5f7a23e016";
 
 /***/ }),
 
@@ -59901,8 +59931,8 @@ var Store = /*#__PURE__*/function (_Vuex$Store) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/jyj/Documents/zzieut-homepage/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/jyj/Documents/zzieut-homepage/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/jyj/Documents/zzim-homepage/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/jyj/Documents/zzim-homepage/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
