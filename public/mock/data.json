@@ -1,0 +1,78 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "name": "찜.",
+            "title": "여가생활 필수 플랫폼",
+            "logo": "https://media.vlpt.us/images/jo_love/post/8d42839a-221c-4ba5-bfa2-9044dce4bb14/%E1%84%8D%E1%85%B5%E1%86%B7.png",
+            "img": "https://media.vlpt.us/images/jo_love/post/cab5bd46-8e6c-4194-b55b-21c4c89c9c0c/%E1%84%8D%E1%85%B5%E1%86%B7%20%20%E1%84%89%E1%85%B5%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5.png",
+            "description": "개개인의 취향과 성향을 기반으로 나만을 위한 취향저격 컨텐츠 찜",
+            "history": [
+                {
+                    "date": "20년 11월",
+                    "text": "찜 50억 투자 유치"
+                },
+                {
+                    "date": "20년 12월",
+                    "text": "찜 서비스 런칭"
+                },
+                {
+                    "date": "20년 12월",
+                    "text": "찜 서비스 런칭"
+                },
+                {
+                    "date": "20년 12월",
+                    "text": "찜 서비스 런칭"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "찜스토어.",
+            "title": "쇼핑 필수 플랫폼",
+            "logo": "https://media.vlpt.us/images/jo_love/post/878bf654-7bcd-4d82-ab10-a3b5e34534ea/%E1%84%8D%E1%85%B5%E1%86%B7%20(1).png",
+            "img": "https://media.vlpt.us/images/jo_love/post/71bddd81-054c-42dd-9410-e4535799e929/start%20store.png",
+            "description": "개개인의 취향과 성향을 기반으로 나만을 위한 취향저격 컨텐츠 찜스토어",
+            "history": [
+                {
+                    "date": "20년 11월",
+                    "text": "찜스토어 50억 투자 유치"
+                },
+                {
+                    "date": "20년 12월",
+                    "text": "찜스토어 서비스 런칭"
+                },
+                {
+                    "date": "20년 12월",
+                    "text": "찜스토어 서비스 런칭"
+                },
+                {
+                    "date": "21년 1월",
+                    "text": "찜스토어 컨텐츠 상 수상"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "츄릅.",
+            "title": "먹부림 필수 플랫폼",
+            "logo": "https://media.vlpt.us/images/jo_love/post/6ec150d4-d7e7-4b9d-bb62-65cd6f923f13/%E1%84%8D%E1%85%B5%E1%86%B7%20(2).png",
+            "img": "https://media.vlpt.us/images/jo_love/post/19d14d66-2405-4b24-bca3-893ad2621b6b/%E1%84%8D%E1%85%B5%E1%86%B7%20%E1%84%89%E1%85%B5%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20(2).png",
+            "description": "개개인의 취향과 성향을 기반으로 나만을 위한 취향저격 컨텐츠 츄릅",
+            "history": [
+                {
+                    "date": "20년 11월",
+                    "text": "츄릅 50억 투자 유치"
+                },
+                {
+                    "date": "20년 12월",
+                    "text": "츄릅 서비스 런칭"
+                },
+                {
+                    "date": "20년 12월",
+                    "text": "츄릅 컨텐츠 상 수상"
+                }
+            ]
+        }
+    ]
+}

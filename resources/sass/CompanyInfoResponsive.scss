@@ -1,0 +1,480 @@
+@import "../sass/mixins";
+
+@include tablet {
+    .CompanyInfo {
+        .MainBanner {
+            position: relative;
+            margin-bottom: 50px;
+            > div {
+                height: 500px;
+
+                .slick-dots {
+                    bottom: 30px;
+
+                    li {
+                        margin: 0;
+                    }
+                }
+            }
+
+            p {
+                font-size: 36px;
+                word-break: keep-all;
+                text-align: center;
+            }
+        }
+
+        .vision {
+            text-align: center;
+            margin-bottom: 150px;
+            .contents {
+                div {
+                    padding: 0;
+                    width: 180px;
+                    height: 180px;
+
+                    p {
+                        color: #fff;
+                        font-size: 20px;
+                        margin-bottom: 0;
+                    }
+                }
+                ul {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 650px;
+                    li {
+                        position: relative;
+                        width: 280px;
+                        padding: 15px;
+                        background-color: #fff;
+                        border-radius: 10px;
+                        font-size: 18px;
+                        box-shadow: 4px 4px 18px 0px rgba(50, 50, 50, 0.125);
+
+                        span {
+                            font-size: 24px;
+                            font-weight: bold;
+                            color: #d9d9d9;
+                        }
+
+                        &:nth-child(1) {
+                            text-align: left;
+                            ::after {
+                                right: 15%;
+                                top: -50%;
+                                transform: rotate(45deg);
+                            }
+                        }
+
+                        &:nth-child(2) {
+                            text-align: right;
+                            ::after {
+                                left: 15%;
+                                top: -50%;
+                                transform: rotate(-45deg);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .brandMission {
+            padding-bottom: 150px;
+
+            > p {
+                font-size: 24px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .wrapper {
+                ul {
+                    li {
+                        font-size: 16px;
+
+                        span {
+                            font-size: 18px;
+                            margin-bottom: 30px;
+
+                            &.point {
+                                font-size: 20px;
+                            }
+                            &:after {
+                                bottom: -15px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .companyProfile {
+                .wrapper {
+                    padding: 150px 100px;
+
+                    table {
+                        padding: 15px;
+                        tr {
+                            display: block;
+                            padding: 10px 0 15px;
+
+                            th {
+                                width: auto;
+                                padding: 0 10px;
+                                font-weight: bold;
+                            }
+
+                            td {
+                                span {
+                                    color: #666;
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .history {
+            margin-bottom: 150px;
+            .wrapper {
+                > div {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    ul {
+                        grid-template-columns: auto;
+                        margin-bottom: 0;
+                        li {
+                            margin-bottom: 30px;
+                            &:nth-child(2n) {
+                                &::before {
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .members {
+            .wrapper {
+                ul {
+                    grid-template-columns: auto auto auto auto;
+                    li {
+                        width: 120px;
+                        height: 120px;
+
+                        img {
+                            display: none;
+                        }
+
+                        p {
+                            opacity: 1;
+                            text-align: center;
+                            padding: 0 5px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .contact {
+            table {
+                tr {
+                    padding: 5px 0 10px;
+
+                    th {
+                        width: 100px;
+                    }
+                    td {
+                        width: 350px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include mobile {
+    .CompanyInfo {
+        padding-bottom: 150px;
+
+        h3 {
+            text-align: center;
+            padding: 20px 0;
+            font-size: 18px;
+            font-weight: bolder;
+            color: $red;
+        }
+
+        .MainBanner {
+            margin-bottom: 30px;
+            > div {
+                height: 210px;
+
+                .slick-dots {
+                    bottom: 5%;
+
+                    li {
+                        margin: 0;
+                    }
+                }
+            }
+
+            p {
+                font-size: 16px;
+                text-align: center;
+                word-break: keep-all;
+            }
+        }
+
+        .vision {
+            text-align: center;
+            margin-bottom: 50px;
+
+            .contents {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+
+                div {
+                    width: 120px;
+                    height: 120px;
+                    border-radius: 100%;
+                    background-color: $red;
+
+                    p {
+                        color: #fff;
+                        font-size: 16px;
+                        margin-bottom: 0;
+                    }
+                }
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: unset;
+                    width: 280px;
+                    li {
+                        position: relative;
+                        width: auto;
+                        padding: 0;
+                        background-color: transparent;
+                        border-radius: 0;
+                        font-size: 16px;
+                        box-shadow: none;
+                        text-align: center;
+
+                        ::after {
+                            display: none;
+                        }
+
+                        span {
+                            font-size: 20px;
+                            font-weight: bold;
+                            color: #d9d9d9;
+                        }
+
+                        &:nth-child(1) {
+                            text-align: inherit;
+                            margin-top: 20px;
+                        }
+
+                        &:nth-child(2) {
+                            text-align: inherit;
+                        }
+                    }
+                }
+            }
+        }
+
+        .brandMission {
+            padding: 0 10px 0;
+            word-break: keep-all;
+
+            > p {
+                font-size: 18px;
+                margin-bottom: 30px;
+
+                span {
+                    font-weight: 600;
+                }
+            }
+
+            .wrapper {
+                ul {
+                    li {
+                        margin-bottom: 30px;
+                        font-size: 16px;
+
+                        span {
+                            font-size: 16px;
+                            margin-bottom: 30px;
+
+                            &.point {
+                                font-size: 18px;
+                            }
+
+                            &:after {
+                                bottom: -15px;
+                                width: 5px;
+                                height: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .companyProfile {
+            background-color: #fff;
+            padding: 20px 0 0;
+            margin-bottom: 50px;
+
+            .wrapper {
+                padding: 50px;
+
+                table {
+                    padding: 10px;
+                    font-size: 14px;
+                    line-height: 1.4;
+                    word-break: keep-all;
+                    tr {
+                        th {
+                            width: 100px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .history {
+            margin-bottom: 50px;
+            .wrapper {
+                > div {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                ul {
+                    grid-template-columns: auto;
+                    margin-bottom: 0px;
+
+                    li {
+                        padding: 10px;
+                        &:nth-child(2n) {
+                            position: relative;
+                            &::before {
+                                content: "";
+                                position: absolute;
+                                display: block;
+                                width: 1px;
+                                height: 90%;
+                                left: -25px;
+                                bottom: 0;
+                                background-color: #d9d9d9;
+                            }
+                        }
+
+                        span {
+                            font-size: 24px;
+                            margin-bottom: 15px;
+                        }
+
+                        table {
+                            text-align: left;
+                            font-size: 14px;
+
+                            tr {
+                                display: block;
+                                margin-bottom: 15px;
+                                td {
+                                    word-break: keep-all;
+                                    &:nth-child(1) {
+                                        color: $red;
+                                        font-weight: bold;
+                                        padding-right: 15px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                button {
+                    padding: 5px 0;
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .members {
+            margin-bottom: 50px;
+
+            .wrapper {
+                ul {
+                    grid-template-columns: auto auto;
+                    grid-column-gap: 10px;
+                    grid-row-gap: 10px;
+
+                    li {
+                        width: 100px;
+                        height: 100px;
+                        text-align: center;
+                        font-size: 12px;
+
+                        img {
+                            display: none;
+                        }
+
+                        p {
+                            opacity: 1;
+
+                            span {
+                                font-size: 14px;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .contact {
+            table {
+                display: inline-block;
+                padding: 20px;
+                background-color: #fff;
+                font-size: 14px;
+                line-height: $line_height_base;
+                z-index: 1;
+                tr {
+                    display: block;
+                    padding: 10px 0 15px;
+
+                    &:last-child {
+                        border-bottom: none;
+                    }
+
+                    th {
+                        width: 100px;
+                        padding: 0 10px;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+
+    @keyframes activeIndex {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+}

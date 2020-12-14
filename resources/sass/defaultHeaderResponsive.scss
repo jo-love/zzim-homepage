@@ -1,0 +1,23 @@
+@import "mixins";
+
+@include mobile {
+    .Header {
+        .nav {
+            .menutab {
+                display: none;
+            }
+            .hamburger {
+                display: block;
+            }
+        }
+
+        .activeMenu {
+            cursor: pointer;
+            background-color: rgb(255, 255, 255);
+            width: 100%;
+            padding: 8px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 10;
+        }
+    }
+}

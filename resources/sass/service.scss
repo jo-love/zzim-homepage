@@ -1,0 +1,289 @@
+.service {
+    margin-bottom: 150px;
+
+    .slickContainer {
+        width: 75%;
+        margin: 0 auto;
+        .slick-prev {
+            left: 20px;
+            z-index: 3;
+        }
+        .slick-next {
+            right: 20px;
+            z-index: 3;
+        }
+        .list {
+            height: 280px;
+
+            .background {
+                height: 100%;
+                position: relative;
+                margin: 10px;
+
+                span {
+                    position: absolute;
+                    bottom: 10%;
+                    left: 30%;
+                    color: #ee3f35;
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+            }
+            .item1 {
+                background: url("../js/components/service/Img/찜.png");
+                background-size: cover;
+            }
+
+            .item2 {
+                background: url("../js/components/service/Img/찜스토어.png");
+                background-size: cover;
+            }
+
+            .item3 {
+                background: url("../js/components/service/Img/츄릅.png");
+                background-size: cover;
+            }
+        }
+    }
+    .summarySection {
+        display: flex;
+        width: 75%;
+        height: 250px;
+        margin: 0 auto;
+        margin-top: 50px;
+        border-bottom: #bcc0c6 solid 1px;
+
+        .mainTitle {
+            width: 20%;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .descriptionBox {
+            width: 80%;
+
+            .description {
+                height: 100px;
+                border-bottom: black solid 1px;
+                line-height: 20px;
+                font-size: 12px;
+            }
+
+            .listBox {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-gap: 20%;
+                height: 50%;
+
+                .logoList {
+                    display: flex;
+                    align-items: center;
+                    font-size: 0.8vw;
+                }
+            }
+        }
+    }
+
+    .serviceLists {
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+        margin: 0 auto;
+        padding-top: 50px;
+
+        .mainContainer {
+            display: flex;
+
+            .serviceName {
+                width: 20%;
+                font-size: 30px;
+                font-weight: bold;
+            }
+
+            .representativeImage {
+                width: 100%;
+            }
+        }
+
+        article {
+            display: flex;
+            padding-left: 8rem;
+
+            .flatformBody {
+                width: 100%;
+
+                .logoBox {
+                    height: 100px;
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+
+                .historyBox {
+                    padding-left: 10px;
+                    margin-top: 50px;
+                    ul {
+                        margin-bottom: 0;
+                    }
+
+                    .history {
+                        font-weight: bold;
+                        margin-bottom: 20px;
+                    }
+                }
+
+                h2,
+                span {
+                    font-size: 12px;
+                }
+
+                .timelineArea {
+                    padding-left: 30px;
+                    border-left: 2px solid #ccc;
+
+                    li {
+                        position: relative;
+                        padding: 8px 0 10px 0;
+
+                        :before {
+                            content: "";
+                            display: block;
+                            width: 10px;
+                            height: 10px;
+                            position: absolute;
+                            top: 10px;
+                            left: -36px;
+                            border: 3px solid #ed3f37;
+                            border-radius: 50%;
+                            background-color: white;
+                        }
+
+                        .content {
+                            color: #ed3f37;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 720px) {
+    .service {
+        .slickContainer {
+            width: 100%;
+        }
+
+        .summarySection {
+            display: flex;
+            flex-direction: column;
+            height: auto;
+
+            .mainTitle {
+                font-size: 4vw;
+            }
+
+            .descriptionBox {
+                width: 100%;
+
+                .description {
+                    font-size: 1vw;
+                }
+
+                .listBox {
+                    display: inline;
+                }
+            }
+        }
+
+        .serviceLists {
+            width: 100%;
+            margin: 0 auto;
+
+            .mainContainer {
+                display: flex;
+                flex-direction: column;
+
+                .serviceName {
+                    width: 75%;
+                    margin: auto;
+                    font-size: 4vw;
+                }
+            }
+
+            article {
+                padding-left: 40px;
+
+                h2,
+                span {
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 720px) and (max-width: 1024px) {
+    .service {
+        .slickContainer {
+            width: 100%;
+        }
+
+        .summarySection {
+            display: flex;
+            flex-direction: column;
+            height: auto;
+
+            .mainTitle {
+                width: auto;
+                font-size: 3vw;
+            }
+
+            .descriptionBox {
+                width: 100%;
+
+                .description {
+                    font-size: 1vw;
+                }
+
+                .listBox {
+                    display: flex;
+                    justify-content: space-between;
+                    grid-gap: 0px;
+                    height: auto;
+                }
+            }
+        }
+
+        .serviceLists {
+            width: 100%;
+            margin: 0 auto;
+
+            .mainContainer {
+                display: flex;
+                flex-direction: column;
+
+                .serviceName {
+                    width: 75%;
+                    margin: auto;
+                    font-size: 3vw;
+                }
+            }
+
+            article {
+                width: 75%;
+                margin: auto;
+                padding: 0;
+
+                h2,
+                span {
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+}

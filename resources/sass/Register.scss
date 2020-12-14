@@ -1,0 +1,110 @@
+.registerWrapper {
+    background: rgb(220, 220, 220);
+
+    .formBox {
+        width: 380px;
+        margin: 0 auto;
+        font-size: 30px;
+        background-color: #e3342f;
+
+        .tabs {
+            display: flex;
+            background-color: #f0f3f5;
+
+            > li {
+                width: 100%;
+                text-align: center;
+                padding: 15px;
+                font-size: 16px;
+                color: #888888;
+                cursor: pointer;
+            }
+
+            .activeTab {
+                background: #e3342f;
+                color: black;
+                font-weight: bold;
+            }
+        }
+
+        .content {
+            height: 571px;
+        }
+    }
+}
+.loginForm {
+    width: 320px;
+    padding: 50px 25px;
+    margin: auto;
+    background: #e3342f;
+    display: flex;
+    flex-direction: column;
+
+    svg {
+        align-self: center;
+        transform-style: preserve-3d;
+        width: 70%;
+        margin-bottom: 40px;
+        border-radius: 50%;
+        background: #fff;
+    }
+
+    input {
+        width: 100%;
+        font-size: 16px;
+        padding: 10px 15px;
+        margin-top: 25px;
+        border: none;
+        border-radius: 5px;
+        outline: none;
+    }
+
+    .errorMsg {
+        height: 13px;
+        font-size: 12px;
+        font-weight: bold;
+        color: white;
+        padding-top: 5px;
+    }
+
+    button {
+        background: wheat;
+        height: 40px;
+        margin-top: 50px;
+        border-radius: 5px;
+        border: none;
+        font-size: 1rem;
+        cursor: pointer;
+
+        &:focus {
+            outline: none;
+        }
+
+        &:hover {
+            color: red;
+            font-weight: bold;
+        }
+    }
+
+    .forgetPW {
+        margin-top: 5px;
+        padding-right: 5px;
+        font-size: 11px;
+        color: dimgrey;
+        font-weight: bold;
+        text-align: right;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 720px) {
+    .registerWrapper {
+        .formBox {
+            width: 100%;
+        }
+        input,
+        button {
+            width: 300px;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "content": 1,
+      "writer": "wecode",
+      "title": "Welcome to world best coding bootcamp!",
+      "isLiked": true
+    },
+    {
+      "id": 2,
+      "writer": "joonsikyang",
+      "title": "Hi there.",
+      "isLiked": false
+    },
+    {
+      "id": 3,
+      "writer": "jayPark",
+      "title": "Hey.",
+      "isLiked": false
+    }
+  ]
+}
